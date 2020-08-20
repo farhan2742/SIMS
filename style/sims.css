@@ -1,0 +1,310 @@
+.largeText
+{
+	padding-top:0;
+	font-size: 200%;
+}
+.navbar
+{
+	height:55px;
+}
+.navbarPaddingTop
+{
+	margin-top: 1.4em;
+}
+.navbarMarginLeft
+{
+	margin-left: 10%;
+}
+.navbarMarginLeftClock
+{
+	margin-left: 30%;
+}
+.navbarMarginRight
+{
+	margin-right: 5%;
+}
+#time
+{
+	position: relative;
+	top: -.5em;
+}
+#navbarList
+{
+	margin-left: 10px;
+	font-weight: bold;
+}
+#welcomeMessage
+{
+  color:white;
+}
+#time
+{
+	max-width: 150px;
+}
+#login
+{
+	width:100%;
+	background-image: url(http://localhost/sims/images/background.jpg);
+	background-size: cover;
+}
+#topRow
+{
+	margin-top: 100px;
+}
+#topRow h1
+{
+	font-size: 400%;
+	font-weight: bolder;
+}
+footer
+{
+  background-color: black;
+  color: white;
+}
+footer p
+{
+	margin: 0.1em;
+	padding: 0.1em;
+}
+.bold
+{
+	font-weight: bold;
+}
+.loginFormInput
+{
+	padding: 1em;
+	font-size: 1.6em;
+}
+.marginTop
+{
+	margin-top: 50px;
+}
+.cloudyText
+{
+	color:#ECF0F1;
+}
+.center
+{
+	text-align: center;
+}
+.glyphiconFont
+{
+	font-size: 500%;
+}
+#download
+{
+	background-color: #3498DB;
+	width: 100%;
+}
+.glyphiconForm
+{
+	font-size: 2em;
+}
+.marginTopForm
+{
+	margin-top: 1em;
+}
+#formReset
+{
+	margin-right: 10px;
+}
+.thumbnailFavicon
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	left:.8em;
+	font-size: 1000%;
+}
+#contactFormReset
+{
+	margin-right: 10px;
+}
+#contactformButtons
+{
+	position: relative;
+}
+#messageContactUs
+{
+	min-height: 350px;
+}
+#navbarList li
+{
+	font-size: 1.2em;
+}
+#wrapper
+{
+	background-image: url(http://localhost/udemy/5.Bootstrap/images/background_1.jpg);
+}
+.marginLeft
+{
+	margin-left: 25px;
+}
+.selected
+{
+	background: #3498db;
+	border-bottom: 2px solid #2ecc71;
+	font-weight: bold;
+}
+.nav>li>a:focus, .nav>li>a:hover
+{
+    text-decoration: none;
+    background-color: rgba(250,250,250,0);
+}
+body
+{
+  padding-top: 70px;
+}
+a
+{
+	color:#34495e;
+}
+a:hover, a .selected
+{
+	border-bottom: 2px solid #2ecc71;
+	font-weight: bolder;
+}
+.text-center
+{
+  padding-top: 20px;
+}
+.col-xs-12
+{
+  background-color: #fff;
+}
+#sidebar
+{
+  height: 100%;
+  padding-right: 0;
+  padding-top: 20px;
+  border-right: 2 #27ae60 solid;
+}
+#sidebar .nav
+{
+  width: 95%;
+}
+#sidebar li
+{
+  border:0 #27ae60 solid;
+  border-bottom-width:1px;
+}
+
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) 
+{
+  .row-offcanvas 
+  {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas
+  {
+    right: -41.6%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas
+  {
+    left: -41.6%;
+  }
+  .row-offcanvas-right.active
+  {
+    right: 41.6%;
+  }
+  .row-offcanvas-left.active
+  {
+    left: 41.6%;
+  }
+  .sidebar-offcanvas
+  {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar
+  {
+    padding-top:0;
+  }
+  #mainSection
+  {
+  	max-width: 100%;
+  	overflow: hidden;
+  }
+}
+#userimage
+{
+	margin:auto;
+	text-align: center !important;
+	font-size: 18vw;
+}
+#time
+{
+	margin-top:25px;
+}
+#mainSection
+{
+	overflow: hidden !important;
+}
+.glyphiconlogin
+{
+	text-align: center;
+	font-size: 10vw;
+}
+a
+{
+	text-align: center;
+}
+#userThumbnail
+  {
+  	text-align: center;
+  	margin-top: 20px
+  }
+.marginTopIndex
+{
+  margin-top: -15px;
+}
+.navbar-Text
+{
+  font-size: 34px;
+  position: relative;
+  top: 0;
+  margin: 0;
+  height: 45px;
+}
+
+.footer
+{
+   color:#34495e;
+   background: #ecf0f1;
+}
+a .footer
+{
+  color:#2c3e50;
+}
+.marginLeftFooter
+{
+  padding-left: 40px;
+}
+.marginRightFooter
+{
+  padding-right: 40px;
+}
+.contentSection
+{
+  margin-bottom: 40px;
+}
+.logoText
+{
+  position: relative;
+  left: 45px;
+  top: -40px;
+}
+.logoImage
+{
+  position: relative;
+  left: 0;
+  top: -11px;
+}
